@@ -11,7 +11,8 @@ const COVER_STORY = {
   title: "A rede que a CIA perdeu em Pequim",
   subtitle: "O caso que reescreveu o manual de contrainteligência hostil.",
   href: "/artigos/como-china-desmantelou-rede-cia-contrainteligencia",
-  image: "/images/editorial/china-cia-cover.jpg",
+  imageDesktop: "/images/editorial/cia-beijing-desktop.png",
+  imageMobile: "/images/editorial/cia-beijing-mobile.png",
   imageAlt:
     "Homem em terno cinza observa as luzes de Pequim através da janela de um quarto de hotel à noite.",
 }
@@ -23,7 +24,8 @@ const HERO_SLIDES: HeroSlide[] = [
     subtitle: COVER_STORY.subtitle,
     href: COVER_STORY.href,
     ctaLabel: "Ler análise",
-    image: COVER_STORY.image,
+    imageDesktop: COVER_STORY.imageDesktop,
+    imageMobile: COVER_STORY.imageMobile,
     imageAlt: COVER_STORY.imageAlt,
     imagePosition: "center 35%",
   },
@@ -33,7 +35,8 @@ const HERO_SLIDES: HeroSlide[] = [
     subtitle: "Como a informação é entregue antes de ser roubada.",
     href: "/artigos/engenharia-social-ponto-vulneravel-humano",
     ctaLabel: "Ver caso",
-    image: "/images/editorial/social-engineering-hero.jpg",
+    imageDesktop: "/images/editorial/social-engineering-desktop.png",
+    imageMobile: "/images/editorial/social-engineering-mobile.png",
     imageAlt:
       "Homem de terno cinza e mulher de vestido verde conversam em uma mesa de bar de hotel.",
     imagePosition: "center 30%",
@@ -44,7 +47,8 @@ const HERO_SLIDES: HeroSlide[] = [
     subtitle: "Credibilidade, motivação, consistência e registro.",
     href: "/artigos/validacao-de-fontes-humanas",
     ctaLabel: "Ver protocolo",
-    image: "/images/editorial/source-validation.jpg",
+    imageDesktop: "/images/editorial/source-validation-desktop.png",
+    imageMobile: "/images/editorial/source-validation-mobile.png",
     imageAlt:
       "Oficial de inteligência examina uma fotografia em preto e branco sob a luz de um abajur.",
     imagePosition: "center 30%",

@@ -16,7 +16,8 @@ export type HeroSlide = {
   /** Manchete (serifa, grande). Mantenha curto — quanto menor, mais cinematográfico. */
   title: string
   href: string
-  image: string
+  imageDesktop: string
+  imageMobile: string
   imageAlt: string
   /**
    * object-position da imagem (CSS). Util para enquadrar corretamente rostos
@@ -132,14 +133,26 @@ export function HeroCarousel({ slides, autoPlayMs = 7000 }: Props) {
               className="relative w-full shrink-0 snap-center"
             >
               <div className="relative w-full aspect-[3/4] lg:aspect-[24/9]">
+                {/* Desktop Image */}
                 <Image
-                  src={slide.image}
+                  src={slide.imageDesktop}
                   alt={slide.imageAlt}
                   fill
                   preload={i === 0}
                   loading={i === 0 ? "eager" : "lazy"}
                   sizes="100vw"
-                  className="object-cover"
+                  className="hidden lg:block object-cover"
+                  style={{ objectPosition: slide.imagePosition ?? "center" }}
+                />
+                {/* Mobile Image */}
+                <Image
+                  src={slide.imageMobile}
+                  alt={slide.imageAlt}
+                  fill
+                  preload={i === 0}
+                  loading={i === 0 ? "eager" : "lazy"}
+                  sizes="100vw"
+                  className="block lg:hidden object-cover"
                   style={{ objectPosition: slide.imagePosition ?? "center" }}
                 />
 
