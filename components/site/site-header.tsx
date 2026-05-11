@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils"
 import { BrandLogo } from "@/components/site/brand-logo"
 
 /**
- * Cabecalho no estilo portal editorial (referencia: Brasil Paralelo):
+ * Cabecalho no estilo portal editorial:
  * - Logo a esquerda
  * - Navegacao central com 4 itens (Analises / Casos / Metodos / Formacao)
  * - A direita: busca e CTA dourado de assinatura

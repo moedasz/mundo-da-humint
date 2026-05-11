@@ -37,8 +37,8 @@ type Props = {
 }
 
 /**
- * Hero carrossel editorial inspirado em portal jornalístico de referência
- * (Brasil Paralelo). Renderiza duas variantes via CSS responsivo, mantendo a
+ * Hero carrossel editorial inspirado em portal jornalístico de referência.
+ * Renderiza duas variantes via CSS responsivo, mantendo a
  * mesma mecânica de scroll-snap:
  *
  * - Mobile (< lg): imagem retrato 3:4, badge dourado da categoria e manchete
