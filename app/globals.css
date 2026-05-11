@@ -1,0 +1,245 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+/* =========================================================
+   Mundo da HUMINT — Design Tokens
+   ========================================================= */
+
+@theme inline {
+  /* Tipografia */
+  --font-sans: var(--font-inter), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: var(--font-space-grotesk), var(--font-inter), system-ui, sans-serif;
+  --font-serif: var(--font-lora), Georgia, Cambria, "Times New Roman", serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Paleta editorial (Bellingcat-like) */
+  --color-paper: #f6f1e6;
+  --color-paper-strong: #ffffff;
+  --color-paper-deep: #efe7d5;
+  --color-ink: #111111;
+  --color-ink-soft: #2e2e2e;
+  --color-ink-muted: #606060;
+  --color-line: #d7cfbf;
+  --color-line-strong: #b9ad94;
+
+  --color-gold: #d9a523;
+  --color-gold-hover: #bf8f14;
+  --color-gold-active: #9e7410;
+  --color-gold-soft: #f2e2ab;
+  --color-gold-disabled: #a58f56;
+  --color-on-gold: #111111;
+  --color-inverse: #ffffff;
+
+  /* Paleta escura/editorial dramática */
+  --color-deep: #0e1116;
+  --color-deep-2: #161b22;
+  --color-surface: #1f2f43;
+  --color-warm-deep: #5c2617;
+  --color-alert: #b31d1b;
+  --color-copper: #c7673f;
+  --color-amber: #e6a963;
+  --color-cool: #98c2c6;
+  --color-warm-text: #ebe1d1;
+
+  /* Mapeamento semântico (compat. shadcn) */
+  --color-background: var(--color-paper);
+  --color-foreground: var(--color-ink);
+  --color-card: var(--color-paper-strong);
+  --color-card-foreground: var(--color-ink);
+  --color-popover: var(--color-paper-strong);
+  --color-popover-foreground: var(--color-ink);
+  --color-primary: var(--color-gold);
+  --color-primary-foreground: var(--color-on-gold);
+  --color-secondary: var(--color-paper-strong);
+  --color-secondary-foreground: var(--color-ink);
+  --color-muted: var(--color-paper-deep);
+  --color-muted-foreground: var(--color-ink-muted);
+  --color-accent: var(--color-gold-soft);
+  --color-accent-foreground: var(--color-ink);
+  --color-destructive: var(--color-alert);
+  --color-destructive-foreground: #ffffff;
+  --color-border: var(--color-line);
+  --color-input: var(--color-line);
+  --color-ring: var(--color-gold-active);
+
+  /* Radius — editorial minimal */
+  --radius: 0.125rem;
+  --radius-sm: 0.125rem;
+  --radius-md: 0.25rem;
+  --radius-lg: 0.375rem;
+  --radius-xl: 0.5rem;
+}
+
+/* =========================================================
+   Base
+   ========================================================= */
+@layer base {
+  * {
+    @apply border-border;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    color-scheme: light;
+    background-color: var(--color-paper);
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "ss01", "cv11";
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Foco visível e acessível */
+  :focus-visible {
+    outline: 2px solid var(--color-gold-active);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background: var(--color-gold-soft);
+    color: var(--color-ink);
+  }
+
+  /* Headings com display font */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: 0;
+    color: inherit;
+  }
+
+  /* Skip link */
+  .skip-link {
+    @apply sr-only;
+  }
+  .skip-link:focus {
+    @apply not-sr-only fixed top-3 left-3 z-50 bg-ink text-paper px-3 py-2 text-sm font-medium;
+  }
+}
+
+/* =========================================================
+   Utilitários editoriais
+   ========================================================= */
+@layer utilities {
+  .bg-paper { background-color: var(--color-paper); }
+  .bg-paper-strong { background-color: var(--color-paper-strong); }
+  .bg-paper-deep { background-color: var(--color-paper-deep); }
+  .bg-ink { background-color: var(--color-ink); }
+  .bg-ink-soft { background-color: var(--color-ink-soft); }
+  .bg-deep { background-color: var(--color-deep); }
+  .bg-deep-2 { background-color: var(--color-deep-2); }
+  .bg-surface { background-color: var(--color-surface); }
+  .bg-gold { background-color: var(--color-gold); }
+  .bg-gold-soft { background-color: var(--color-gold-soft); }
+  .bg-warm-deep { background-color: var(--color-warm-deep); }
+  .bg-copper { background-color: var(--color-copper); }
+  .bg-alert { background-color: var(--color-alert); }
+
+  .text-paper { color: var(--color-paper); }
+  .text-paper-strong { color: var(--color-paper-strong); }
+  .text-ink { color: var(--color-ink); }
+  .text-ink-soft { color: var(--color-ink-soft); }
+  .text-ink-muted { color: var(--color-ink-muted); }
+  .text-gold { color: var(--color-gold); }
+  .text-gold-hover { color: var(--color-gold-hover); }
+  .text-gold-active { color: var(--color-gold-active); }
+  .text-warm { color: var(--color-warm-text); }
+  .text-copper { color: var(--color-copper); }
+  .text-amber { color: var(--color-amber); }
+  .text-cool { color: var(--color-cool); }
+  .text-alert { color: var(--color-alert); }
+  .text-on-gold { color: var(--color-on-gold); }
+  .bg-on-gold { background-color: var(--color-on-gold); }
+
+  .border-line { border-color: var(--color-line); }
+  .border-line-strong { border-color: var(--color-line-strong); }
+  .border-ink { border-color: var(--color-ink); }
+  .border-gold { border-color: var(--color-gold); }
+
+  .font-display { font-family: var(--font-display); }
+
+  /* Hairline (filetes editoriais) */
+  .hairline-t { border-top: 1px solid var(--color-line); }
+  .hairline-b { border-bottom: 1px solid var(--color-line); }
+  .hairline-y { border-top: 1px solid var(--color-line); border-bottom: 1px solid var(--color-line); }
+  .hairline-strong-b { border-bottom: 1px solid var(--color-line-strong); }
+
+  /* Eyebrow / labels técnicos */
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-ink-muted);
+  }
+
+  .eyebrow-gold {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-gold-active);
+  }
+
+  /* Limite de leitura confortável (60–72ch) */
+  .prose-measure { max-width: 68ch; }
+
+  /* Container editorial */
+  .container-editorial {
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 1rem;
+    max-width: 1280px;
+  }
+  @media (min-width: 768px) {
+    .container-editorial { padding-inline: 2rem; }
+  }
+  @media (min-width: 1280px) {
+    .container-editorial { padding-inline: 3rem; }
+  }
+
+  /* Article prose */
+  .article-prose p { color: var(--color-ink-soft); line-height: 1.75; }
+  .article-prose p + p { margin-top: 1.25rem; }
+  .article-prose h2 {
+    font-family: var(--font-display);
+    color: var(--color-ink);
+    font-size: 1.625rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+    letter-spacing: 0;
+  }
+  .article-prose h3 {
+    font-family: var(--font-display);
+    color: var(--color-ink);
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .article-prose ul, .article-prose ol {
+    margin: 1rem 0 1.25rem 1.25rem;
+    color: var(--color-ink-soft);
+  }
+  .article-prose ul { list-style: disc; }
+  .article-prose ol { list-style: decimal; }
+  .article-prose li { margin-bottom: 0.5rem; line-height: 1.7; }
+  .article-prose blockquote {
+    border-left: 3px solid var(--color-gold);
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: var(--color-ink);
+  }
+  .article-prose a {
+    color: var(--color-gold-active);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+  }
+  .article-prose a:hover { color: var(--color-gold-hover); }
+  .article-prose strong { color: var(--color-ink); }
+}

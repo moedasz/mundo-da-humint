@@ -1,0 +1,10 @@
+packages:
+  - .
+
+overrides:
+  postcss: 8.5.14
+  "next>postcss": 8.5.14
+  "@tailwindcss/postcss>postcss": 8.5.14
+
+onlyBuiltDependencies:
+  - sharp

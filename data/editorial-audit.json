@@ -1,0 +1,638 @@
+{
+  "totalPosts": 298,
+  "postsWithCaption": 294,
+  "postsWithoutCaption": 4,
+  "types": {
+    "Sidecar": 241,
+    "Image": 4,
+    "Video": 53
+  },
+  "topHashtags": [
+    [
+      "HUMINT",
+      207
+    ],
+    [
+      "MundodaHumint",
+      163
+    ],
+    [
+      "EngenhariaSocial",
+      104
+    ],
+    [
+      "ComportamentoHumano",
+      73
+    ],
+    [
+      "Psicologiacomportamental",
+      68
+    ],
+    [
+      "Contrainteligencia",
+      51
+    ],
+    [
+      "OPSEC",
+      39
+    ],
+    [
+      "PsicologiaComportamental",
+      38
+    ],
+    [
+      "Inteligencia",
+      28
+    ],
+    [
+      "Rapport",
+      25
+    ],
+    [
+      "Influencia",
+      24
+    ],
+    [
+      "Geopolitica",
+      24
+    ],
+    [
+      "Espionagem",
+      23
+    ],
+    [
+      "ParadoxoDaEscolha",
+      19
+    ],
+    [
+      "Psyops",
+      19
+    ],
+    [
+      "mundodahumint",
+      18
+    ],
+    [
+      "Influência",
+      17
+    ],
+    [
+      "ControleSocial",
+      16
+    ],
+    [
+      "InteligenciaHumana",
+      15
+    ],
+    [
+      "humint",
+      15
+    ],
+    [
+      "Manipulação",
+      14
+    ],
+    [
+      "InteligenciaEstratégica",
+      13
+    ],
+    [
+      "Manipulacao",
+      13
+    ],
+    [
+      "Persuasao",
+      12
+    ],
+    [
+      "Geopolítica",
+      11
+    ],
+    [
+      "OSINT",
+      10
+    ],
+    [
+      "PsyOps",
+      10
+    ],
+    [
+      "persuasao",
+      10
+    ],
+    [
+      "psyops",
+      10
+    ],
+    [
+      "Contrainteligência",
+      9
+    ]
+  ],
+  "topPostsByEngagement": [
+    {
+      "id": "3829696489766142301",
+      "shortCode": "DUl0Kq2EkFd",
+      "likes": 4257,
+      "captionPreview": "Casos como o de Jinchao Wei expõem um erro recorrente na leitura moderna de espionagem:\no foco exces"
+    },
+    {
+      "id": "3784604076932698377",
+      "shortCode": "DSFnVs1EZEJ",
+      "likes": 50560,
+      "captionPreview": "A parte mais fascinante desse caso é o princípio de contrainteligência que ele revela.\n\nEm operações"
+    },
+    {
+      "id": "3779652547180076746",
+      "shortCode": "DR0BfdZEZ7K",
+      "likes": 8632,
+      "captionPreview": "Entre 2010 e 2012, a China realizou uma das ações de contrainteligência mais eficientes da história "
+    },
+    {
+      "id": "3863001709887475736",
+      "shortCode": "DWcI5aMkdAY",
+      "likes": 800,
+      "captionPreview": "O caso de Harold Martin expõe um ponto que a doutrina de contrainteligência já trata há décadas, mas"
+    },
+    {
+      "id": "3820891143580789311",
+      "shortCode": "DUGiEBKkao_",
+      "likes": 3540,
+      "captionPreview": "Comunicação não é “parte administrativa” da operação. É parte do campo.\n\nToda ação operacional — sej"
+    },
+    {
+      "id": "3871004426677334388",
+      "shortCode": "DW4kgRAETF0",
+      "likes": 9243,
+      "captionPreview": "Em território hostil, muitas vezes é impossível sobreviver sozinho. Há situações em que é necessário"
+    },
+    {
+      "id": "3853576988490031491",
+      "shortCode": "DV6p9qZkWGD",
+      "likes": 13350,
+      "captionPreview": "A Guerra do Golfo de 1991 é frequentemente lembrada como a primeira grande guerra da era da tecnolog"
+    },
+    {
+      "id": "3794125270149090625",
+      "shortCode": "DSncNTAkc1B",
+      "likes": 14103,
+      "captionPreview": "Em meados dos anos 1990, Sergei Skripal ainda era um oficial ativo da inteligência militar russa.\nFo"
+    },
+    {
+      "id": "3780474755938887347",
+      "shortCode": "DR28cK-Eaaz",
+      "likes": 780,
+      "captionPreview": "A Operação Chanakya é um dos casos mais sofisticados de HUMINT + desinformação já usados em um confl"
+    },
+    {
+      "id": "3876923505346964160",
+      "shortCode": "DXNmWMlkWrA",
+      "likes": 13415,
+      "captionPreview": "A Unidade 29155 era projetada para operar no invisível: identidades falsas, missões no exterior, neg"
+    },
+    {
+      "id": "3864480274868978583",
+      "shortCode": "DWhZFXJEcOX",
+      "likes": 5688,
+      "captionPreview": "O que ocorreu com Emilian Gebrev se encaixa em uma lógica mais ampla de guerra híbrida, onde Estados"
+    },
+    {
+      "id": "3849321748651648109",
+      "shortCode": "DVribxekSRt",
+      "likes": 2088,
+      "captionPreview": "Um dos alvos na guerra de inteligência é a confiança.\n\nServiços de inteligência possuem de redes hum"
+    },
+    {
+      "id": "3883267400565627043",
+      "shortCode": "DXkIyBakZij",
+      "likes": 814,
+      "captionPreview": "A maioria das pessoas acredita que está “bem informada”.\nNa prática, está apenas exposta.\n\nO que che"
+    },
+    {
+      "id": "3873149943020644556",
+      "shortCode": "DXAMVozkejM",
+      "likes": 836,
+      "captionPreview": "Edward Snowden trabalhava como contratado da National Security Agency, com acesso privilegiado a red"
+    },
+    {
+      "id": "3849899062057839390",
+      "shortCode": "DVtlsyfESse",
+      "likes": 3590,
+      "captionPreview": "Laken Pavan expõe uma transformação importante nas operações de inteligência modernas.\n\nPor anos, o "
+    },
+    {
+      "id": "3852137211458821325",
+      "shortCode": "DV1imJjERzN",
+      "likes": 9095,
+      "captionPreview": "As transmissões derectadas chamaram atenção porque seguem um padrão muito específico conhecido na co"
+    },
+    {
+      "id": "3817357262214765904",
+      "shortCode": "DT5-jRrEZ1Q",
+      "likes": 343,
+      "captionPreview": "A série inteira pode ser resumida assim: recrutamento não é um “convite”. É um sistema. E sistemas n"
+    },
+    {
+      "id": "3869466307251493300",
+      "shortCode": "DWzGxrqEVm0",
+      "likes": 1768,
+      "captionPreview": "O Simple Sabotage Field Manual ensina a sabotar sistemas, e mais do que isso, ensina a transformar p"
+    },
+    {
+      "id": "3833305087758949610",
+      "shortCode": "DUyoqrnkdzq",
+      "likes": 4885,
+      "captionPreview": "Quando uma informação protegida vira notícia, é natural que a atenção se volte à pessoa exposta.\nNo "
+    },
+    {
+      "id": "3836299877815490586",
+      "shortCode": "DU9RmnNERga",
+      "likes": 5022,
+      "captionPreview": "Por incrível que pareça, muitas vezes o problema é ter informação demais e pouca capacidade de trans"
+    },
+    {
+      "id": "3831140038340688519",
+      "shortCode": "DUq8ZEOErqH",
+      "likes": 558,
+      "captionPreview": "Psyops não se limitam a panfletos de guerra.\nElas são construídas como narrativas sofisticadas que r"
+    },
+    {
+      "id": "3818867244546461707",
+      "shortCode": "DT_V4aTkRAL",
+      "likes": 813,
+      "captionPreview": "Na França ocupada, o rádio era o único fio constante entre Paris e Londres. Não era glamour — era ne"
+    },
+    {
+      "id": "3792653960961173301",
+      "shortCode": "DSiNq7jEac1",
+      "likes": 2669,
+      "captionPreview": "Ele não caiu por falha técnica.\nCaiu porque esqueceu que vida pessoal também é superfície de ataque."
+    },
+    {
+      "id": "3714354621134791019",
+      "shortCode": "DOMCdkykeFr",
+      "likes": 183,
+      "captionPreview": "OPSEC (Operations Security) é um processo de proteção da informação que busca identificar e controla"
+    },
+    {
+      "id": "3710910686215373387",
+      "shortCode": "DN_zZudEYJL",
+      "likes": 109,
+      "captionPreview": "PsyOps não são teoria. A Groenlândia é o exemplo real.\n\nEm 27/08/2025, a Dinamarca convocou o embaix"
+    },
+    {
+      "id": "3856509718970346759",
+      "shortCode": "DWFEyggEa0H",
+      "likes": 2311,
+      "captionPreview": "O caso de Humam al-Balawi foi uma falha de OPSEC em ambiente de alta pressão operacional.\n\nA operaçã"
+    },
+    {
+      "id": "3833921487556945668",
+      "shortCode": "DU000eqkacE",
+      "likes": 1625,
+      "captionPreview": "A campanha americana partia de um pressuposto clássico das fontes durante a guerra fria:  Alguém ins"
+    },
+    {
+      "id": "3828997148025965886",
+      "shortCode": "DUjVJ6GEk0-",
+      "likes": 2025,
+      "captionPreview": "Um casal de espiões na Alemanha precisavam manter contato com Moscou enquanto coletava informações s"
+    },
+    {
+      "id": "3826151850790431151",
+      "shortCode": "DUZONYjESmv",
+      "likes": 607,
+      "captionPreview": "O Efeito Mandela é um fenômeno psicológico em que um grande grupo de pessoas compartilha uma memória"
+    },
+    {
+      "id": "3798483646303800086",
+      "shortCode": "DS27MBHEYsW",
+      "likes": 1113,
+      "captionPreview": "Gaslighting é a técnica de alterar a percepção do outro.\nAos poucos, a pessoa deixa de confiar no qu"
+    }
+  ],
+  "categorizedPosts": {
+    "engenharia-social": [
+      "DUl0Kq2EkFd",
+      "DSFnVs1EZEJ",
+      "DR0BfdZEZ7K",
+      "DR28cK-Eaaz",
+      "DXNmWMlkWrA",
+      "DVribxekSRt",
+      "DXkIyBakZij",
+      "DVtlsyfESse",
+      "DT5-jRrEZ1Q",
+      "DWzGxrqEVm0",
+      "DU9RmnNERga",
+      "DT_V4aTkRAL",
+      "DN_zZudEYJL",
+      "DU000eqkacE",
+      "DRDjC_DESvj",
+      "DYDqD3yjCE0",
+      "DV4A_zzkdus",
+      "DTdx2e5kt5F",
+      "DXcazsakXcb",
+      "DWXcPOkEdoq",
+      "DT0toJVkXAu",
+      "DT3WNHckVdl",
+      "DTV_BGPkbC6",
+      "DS0C6UDEdTK",
+      "DNqGFC2R7LM",
+      "DXSYYQskYKs",
+      "DRut_O4EXbL",
+      "DRNazCzEQ6P",
+      "DQXXI9xEQcI",
+      "DNRMBQOyn2o",
+      "DSQxaOpEYGK",
+      "DVooQDvEUQV",
+      "DU6N0UckeFp",
+      "DTwPCpPkUIS",
+      "DN345GLEr64",
+      "DVMUhjrETeb",
+      "DUgVDzQkU-A",
+      "DR7QasMkYGh",
+      "DRcxRnWkfT5",
+      "DURlCK0kRVx",
+      "DQ1sIlDEdhs",
+      "DQKlJj8Er4Z",
+      "DXPbcBzDurr",
+      "DWZz0FWkdAO",
+      "DVEOOk-ESxA",
+      "DSDAA3OEYHw",
+      "DR-AwBekbqn",
+      "DR4qP1eERfn",
+      "DXVY8ihEVi0",
+      "DUJVGR5kS2C",
+      "DQu06IekRnf",
+      "DNEfF4MyFpK",
+      "DWUXfzvETtv",
+      "DOHpp_OkfXU",
+      "DRxQXi8kRqO",
+      "DRLJdxEEdU7",
+      "DNG9nOVy1Yj",
+      "DM_Ushdy5E1",
+      "DNBvCVpyOrV",
+      "DPhCitZkdNq",
+      "DNyyw3T5HTX",
+      "DXuPswUkauu",
+      "DXDEL10EQ5V",
+      "DRXGCr3EauZ",
+      "DRZ2gUFkRXt",
+      "DXz5rMMEZ1W",
+      "DYF4ppeES_u",
+      "DWPH9AzEeOq",
+      "DWCvb7TkQ_p",
+      "DU_vOR9EcMt",
+      "DUBmDBrDvYK",
+      "DOWd7mJEcy4",
+      "DNbYXhZRt1v",
+      "DX-Ru_cker1",
+      "DXaDLt4kfvU",
+      "DVyrU2ckYdt",
+      "DUta49CkUWX",
+      "DN6UwQpEWd-",
+      "DTyHEZhEffX",
+      "DRsD3_ykf_t",
+      "DNY55_gyK5p",
+      "DNOp04GyXUx",
+      "DM8w0-XyIPU",
+      "DXK9AbDkWVS",
+      "DTnotFFEUfu",
+      "DTOGD8YjofR",
+      "DM4QAQrsqQx",
+      "DWrOq-WER3d",
+      "DWju5TukWI5",
+      "DSknNCYjn4u",
+      "DSSzdNbkWNO",
+      "DNWkFVnR4zI",
+      "DWJ2QlikWD8",
+      "DVCvem4kRpW",
+      "DSALW6pkTHh",
+      "DQsJL4vEjBM",
+      "DQUo7cBkZZm",
+      "DNUVShjRziR",
+      "DM0m2XBRKeN",
+      "DQRY7I3EY3Y",
+      "DTYmsn8koSv",
+      "DRmvFoQEUlC",
+      "DN1JYrgYoK4",
+      "DSNYjuXEbRT",
+      "DRVU2IcEtbO",
+      "DNmpBeBsvlf",
+      "DRpOdgZEcll",
+      "DNMFq-oyBee",
+      "DN9UHZQkQ_b",
+      "DTYt80mkpxj",
+      "DNvWcuo4qw_",
+      "DNKY9gYs0WL",
+      "DXvIeigkZs4",
+      "DMqNioPxvXg",
+      "DM6q7JZMnGz",
+      "DMs_0d8y-3_",
+      "DQ2gugtkSy0"
+    ],
+    "contrainteligencia": [
+      "DWcI5aMkdAY",
+      "DUGiEBKkao_",
+      "DW4kgRAETF0",
+      "DWhZFXJEcOX",
+      "DXAMVozkejM",
+      "DUyoqrnkdzq",
+      "DOMCdkykeFr",
+      "DUjVJ6GEk0-",
+      "DQhRXc3kRBm",
+      "DVeweNeEWHV",
+      "DQ40uZBkR0O",
+      "DVO2rHpkTCR",
+      "DYIWaJpEcHh",
+      "DWmY1xMkVJ2",
+      "DUUJXcSkTUd",
+      "DRAlkfXEYmN",
+      "DTqBuJDETpz",
+      "DOBha-0EXzl",
+      "DUeeN5OkQEp",
+      "DUofC7tkk9l",
+      "DX7oSnOkW97",
+      "DU34xnVjsv0",
+      "DQHzjiXkSY2",
+      "DP7DBWtEZ_G",
+      "DPAMZwXEfyJ",
+      "DXh7INAEV22",
+      "DPHPIXpESLm",
+      "DW-DieKkS8Q",
+      "DVRZi00DjoX",
+      "DT8yHu0EexL",
+      "DS7wEaFEUsB",
+      "DWoqrsjkY9Y",
+      "DQwtk-_kcp0",
+      "DP17mHsESaN",
+      "DOoaaLnEQUF",
+      "DW2BuBTkXNj",
+      "DUO1g7tEcNH",
+      "DWSHP9iEb_X",
+      "DPxDVjgkbr9",
+      "DQjtquHEa1l",
+      "DQFZ_qWEeWt",
+      "DSLGcjEkSRC",
+      "DSgaHLqDIo3",
+      "DPpY_EcEV69",
+      "DTs5vpZET38",
+      "DQ7GQuMkWJz",
+      "DPNKtnvkQZE",
+      "DQ-A_BZEvKb",
+      "DP4xV0Dkfe3",
+      "DQmue78EUwQ",
+      "DQpSveGkdZC"
+    ],
+    "geopolitica-e-inteligencia": [
+      "DV6p9qZkWGD",
+      "DV1imJjERzN",
+      "DW7CyQ_kR6T",
+      "DTLtOnykrIU",
+      "DQZ4zRZESh4",
+      "DSvbxC3kmbe",
+      "DVzN-LnDybk",
+      "DVmV5tWkXV3",
+      "DVjTWZ-EaXn",
+      "DVZfmwEEV0g",
+      "DSden0Jkhhk",
+      "DO9bwunkni3",
+      "DX1x3N8Ecsd",
+      "DUMh1-ukd38",
+      "DPzYTO8Em9c",
+      "DX5ONPVkaqD",
+      "DSIyRJ1EhWI",
+      "DPjuUXEkcbf",
+      "DPCz9HOEVDL",
+      "DRSexp9kfI0",
+      "DSbElP3kW4v",
+      "DQfNMROEmIh",
+      "DPXTu-tksmG",
+      "DQe55GhkTJd",
+      "DPQNFvEjFQP"
+    ],
+    "opsec": [
+      "DSncNTAkc1B",
+      "DSiNq7jEac1",
+      "DWFEyggEa0H",
+      "DUrfFTbka1Y",
+      "DVcOpUvkV-a",
+      "DWHx_N3EbpS",
+      "DVJrhjLEVdE",
+      "DO7He4gESsR",
+      "DQC5Q_6ESq9",
+      "DVGmkcfkf4M",
+      "DOlydQhkdLL",
+      "DTlLA1BEaOD"
+    ],
+    "psicologia-comportamental": [
+      "DUq8ZEOErqH",
+      "DS27MBHEYsW",
+      "DWMvlKNkZt_",
+      "DTENDkkEbTu",
+      "DOEFMG3kVjs",
+      "DUWq39NEdKg",
+      "DVWqKbmkfvP",
+      "DXm8GBlkfRK",
+      "DUD9vAOkYzy",
+      "DVUZyFPkYly",
+      "DNerjYdsKRz",
+      "DYAu5JOEWJ8",
+      "DWANlRnEUIL",
+      "DTBVfWtkQJ6",
+      "DTGqV0mkstD",
+      "DSpuT75ES_2",
+      "DTJHSxeEmDF",
+      "DTbVVZckQAR",
+      "DTTNLFpEZFf",
+      "DTRD4-Fkd_B",
+      "DXsVLnsEVUh",
+      "DXXNlo1kaot",
+      "DSV1uapkWtl",
+      "DRID0IwEVBb",
+      "DTjPa_qkWZx",
+      "DQAr73XEfuL",
+      "DS-2ffBktHC",
+      "DTgKWnvESSd",
+      "DOyzh3WEZmi",
+      "DXGKj8mDBuD",
+      "DV9estyEU2l",
+      "DOwKQznkaEN",
+      "DTtUP2tEXD_",
+      "DS5wAlpkm5p",
+      "DRj-Bklkd7x",
+      "DQzRvg9kWjm",
+      "DRPwbankSdM",
+      "DNhL1yBxLJY",
+      "DX77tT_R-nl",
+      "DPu_6MUjGZJ",
+      "DXfWACUkce0",
+      "DNlVlohxZNi",
+      "DUb0WGsEfde",
+      "DSsVBn9EVXx",
+      "DRfShwrEYFa",
+      "DPZEcDMEYCG",
+      "DRiGcdfEl-F",
+      "DOZ2T_gkc-E",
+      "DXpXklcEeXD",
+      "DQNIKAFkr29",
+      "DMvdv-bxEBG",
+      "DMgULeWyKaj",
+      "DP9waQNkc_w",
+      "DPsa9IHDO_o",
+      "DOjiIHtEWz-",
+      "DMikTgZx7xn",
+      "DMk3NRNRBi0",
+      "DMi3uwfSFbW",
+      "DPm_G5xkd9P",
+      "DQkpS-Xkddx",
+      "DQnR8g8EVcm"
+    ],
+    "casos-historicos": [
+      "DUZONYjESmv",
+      "DUwDu9CEVeT",
+      "DOrhprakU4v",
+      "DPJ3-LMkZNj",
+      "DPU-o35kYgF",
+      "DOeVn43kSdj",
+      "DOJi3vekQpl",
+      "DOb4QxHEubC",
+      "DO4HqTdDsNq",
+      "DOtqo83jj4S",
+      "DPSVac_EbAt",
+      "DOg6U_zkQbG",
+      "DQcUIUtkYvN"
+    ],
+    "tecnologia-poder-e-estrategia": [
+      "DSxsrw9kTvj",
+      "DOTw58Zkc0R",
+      "DOYmO-bEVZy",
+      "DMgfyOBysFI",
+      "DQh7d-wEZHc",
+      "DQ-Lk7IEqXY"
+    ],
+    "influencia-e-percepcao": [
+      "DNtPE7I4qVS",
+      "DORaVAJEa1B"
+    ],
+    "metodos-e-tradecraft": [
+      "DXIB782kZC-",
+      "DNhdD8zMSl4",
+      "DO1abKeke-X"
+    ],
+    "fundamentos-de-humint": [
+      "DTD88O7EeJ-",
+      "DR4xGleEciT",
+      "DQxjbOQEZ2B"
+    ],
+    "osint-e-humint": [
+      "DR0jN0qEZLm"
+    ]
+  },
+  "averageLikes": 2377,
+  "medianLikes": 500,
+  "dateRange": {
+    "earliest": "2025-07-24T21:12:33.000Z",
+    "latest": "2026-05-09T19:57:53.000Z"
+  }
+}
